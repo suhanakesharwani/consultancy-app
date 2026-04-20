@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-construct-bg: #ffffff;
+  --color-construct-gray-light: #f5f5f5;
+  --color-construct-gray: #4b4b4b;
+  --color-construct-charcoal: #1f1f1f;
+  --color-construct-yellow: #facc15;
+  --color-construct-yellow-hover: #eab308;
+  --color-construct-orange: #f97316;
+}
+
+@layer base {
+  body {
+    @apply bg-construct-bg text-construct-charcoal antialiased font-sans;
+  }
+}
