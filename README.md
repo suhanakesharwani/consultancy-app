@@ -46,35 +46,41 @@ backend/ → Django API
 ## ⚙️ Installation
 
 ### Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
-
+```
 
 ### Backend
+
 ```bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
-
+---
 
 ### 🔐 Authentication
 
-JWT-based authentication
-Role-based access (Admin / Client)
+* JWT-based authentication
+* Role-based access (Admin / Client)
 
-
+---
 
 ### 📦 Deployment
 
-Frontend: Render 
-Backend: Render 
-Database: PostgreSQL (production)
+* Frontend: Render
+* Backend: Render
+* Database: PostgreSQL (production)
 
+---
 
-###👨‍💻 Author
+### 👨‍💻 Author
 
 Suhana Kesharwani
+
+---
