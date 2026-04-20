@@ -12,7 +12,7 @@ export default function Footer() {
                 <HardHat className="h-8 w-8" />
               </div>
               <span className="font-bold text-2xl tracking-tight text-white">
-                Allied Engineers<span className="text-construct-yellow">Eng</span>
+                Allied<span className="text-construct-yellow">Engineers</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm max-w-sm mb-6 leading-relaxed">

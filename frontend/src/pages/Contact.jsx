@@ -76,12 +76,12 @@ export default function Contact() {
         <div className="lg:col-span-1 space-y-8">
           <div className="bg-white rounded-xl shadow-md border border-gray-100 border-t-4 border-t-construct-yellow p-8">
             <h3 className="text-construct-charcoal font-bold text-xl mb-6 flex items-center">
-              <MapPin className="mr-3 text-construct-yellow w-6 h-6" /> HQ Coordinates
+              <MapPin className="mr-3 text-construct-yellow w-6 h-6" /> Office Coordinates
             </h3>
             <p className="text-construct-gray mb-6 leading-relaxed">
-              123 Engineering Blvd<br/>
-              Sector 7, Tech District<br/>
-              New York, NY 10001
+              54, Pitmpura Rd<br/>
+              Block ED, Dakshini Pitampura<br/>
+              Pitampura, Delhi-110034
             </p>
             <div className="w-full h-32 bg-construct-gray-light rounded-lg border border-gray-200 flex items-center justify-center">
                <MapPin className="text-construct-orange w-8 h-8 opacity-80" />
